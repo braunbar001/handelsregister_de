@@ -4,12 +4,14 @@
 # If it doesn't exist, the database file will be
 # generated upon startup.
 #
-DB_PATH = 'orgdata.db'
+##DB_PATH = 'orgdata.db'
+DB_PATH = 'data.sqlite'
 
 # The number range to be searched
 #
 MIN_REGISTER_NUMBER = 1
-MAX_REGISTER_NUMBER = 500000
+#MAX_REGISTER_NUMBER = 500000
+MAX_REGISTER_NUMBER = 1000
 
 # minimum and maximum time to wait between requests
 #
